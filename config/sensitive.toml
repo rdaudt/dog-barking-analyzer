@@ -1,0 +1,9 @@
+onset = 0.20
+offset = 0.10
+chunk_seconds = 60.0
+context_seconds = 0.96
+merge_gap_seconds = 3.0
+clip_padding_seconds = 2.0
+max_clip_seconds = 300.0
+mp3_kbps = 128
+

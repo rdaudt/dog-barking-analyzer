@@ -2,12 +2,14 @@
 
 A local, CPU-only Windows CLI that finds suspected dog-bark episodes in M4A/AAC, MP3, and WAV recordings using Google's YAMNet model. It creates timestamped MP3 review clips and portable HTML, text, CSV, JSON, and ZIP reports. The recording is read-only and is never included in the report ZIP.
 
+Operational procedures are in the [runbook](docs/RUNBOOK.md). The original product requirements are archived in [docs](docs/dog-barking-analyzer-prd.pdf).
+
 ## Install
 
 Install 64-bit Windows FFmpeg 6.1 or newer, Git, and [uv](https://docs.astral.sh/uv/). Then run:
 
 ```powershell
-git clone <repository-url>
+git clone https://github.com/rdaudt/dog-barking-analyzer.git
 cd dog-barking-analyzer
 .\setup.ps1
 ```
